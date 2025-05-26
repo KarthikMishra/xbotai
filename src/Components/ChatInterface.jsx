@@ -129,7 +129,7 @@ const ChatInterface = (props) => {
 					value={props.input}
 					onChange={(e) => props.updateInput(e.target.value)}
 					onKeyPress={(e) => e.key === 'Enter' && handleSend()}
-					placeholder="Type a message..."
+					placeholder="Message Bot AI…"
 				/>
 				<Button
 					variant="contained"
